@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+       .outer
+       {
+        height: 100%;
+        width: 100%;
+       }
+       .main
+       {
+        height: 500px;
+        width: 900px;
+        background: linear-gradient(45deg, #ddd6f3, #faaca8);
+        margin: 40px auto;
+       }
+       .part1
+       {
+        height: 500px;
+        width: 250px;
+        float: left;
+       }
+       img
+       {
+        height: 60px;
+        margin: 100px 0 0 100px;
+       }
+       .part1 h1
+       {
+        text-align: center;
+        margin-top: 15px;
+        color: white;
+       }
+       .part1 p
+       {
+        font-size: 18px;
+        text-align: center;
+        margin: 20px;
+        color: white;
+       }
+       .part1 button
+       {
+        height: 25px;
+        width: 140px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+        margin-left: 55px;
+        margin-top: 70px;
+       }
+       .part2
+       {
+        height: 450px;
+        width: 650px;
+        background: whitesmoke;
+        float: right;
+        margin-top: 25px;
+        border-radius: 50px 0 0 50px;
+       }
+       .layout
+       {
+        height: 30px;
+        width: 200px;
+        background: linear-gradient(45deg, #ddd6f3, #faaca8);
+        float: right;
+        margin: 10px 10px 0 0;
+        border-radius: 35px;
+       }
+       .button
+       {
+        height: 20px;
+        width: 80px;
+        background: none;
+        float: left;
+        border: none;
+        border-radius: 10px;
+        margin: 5px 0 0 14px;
+        
+       }
+       .button:hover
+       {
+        height: 20px;
+        width: 80px;
+        background: white;
+        border-radius: 10px;
+        color: #faaca8;
+       }
+       .part2 p
+       {
+        font-size: 30px;
+        text-align: center;
+        color: gray;
+        margin-left: -400px;
+       }
+       .formsignup
+       {
+         height: 300px;
+         width: 600px;
+         margin-left: -380px;
+       }
+       input
+       {
+        height: 30px;
+        width: 250px;
+        margin: 5px;
+        padding-left: 10px;
+       }
+       select
+       {
+        height: 35px;
+        width: 266px;
+        margin: 5px;
+        padding-left: 10px;
+       }
+       .gender
+       {
+        height: 15px;
+        width: 20px;
+        margin: 5px;
+       }
+       .register
+       {
+        height: 30px;
+        width: 100px;
+        float: right;
+        background: linear-gradient(45deg, #ddd6f3, #faaca8);
+        color: white;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        margin-right: 53px;
+        font-size: 16px;
+       }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="main">
+            <div class="part1">
+                <img src="images/rocket-ship.png">
+                <h1>Welcome</h1>
+                <p>You are 30 Seconds away from earning your own money!</p>
+                <button>Login</button>
+            </div>
+            <div class="part2">
+                <div class="layout">
+                    <button class="button">Employee</button>
+                    <button class="button">Hirer</button><br>
+                    <p>Apply as a Employee</p>
+                    <div class="formsignup">
+                        <form>
+                            <input type="text" placeholder="First Name*">
+                            <input type="text" placeholder="Your Email*">
+                            <input type="text" placeholder="Last Name*">
+                            <input type="number" placeholder="Your Phone*">
+                            <input type="password" placeholder="Password*">
+                            <select>
+                                <option value="">Please Select Your Security Question</option>
+                            </select>
+                            <input type="password" placeholder="Confirm password*">
+                            <input type="text" placeholder="Enter Your Name*"><br>
+                            <input type="radio" name="gender" class="gender">Male 
+                            <input type="radio" name="gender" class="gender">Female<br><br>
+                            <button class="register">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
